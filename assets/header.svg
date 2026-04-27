@@ -1,0 +1,70 @@
+<svg width="1200" height="280" viewBox="0 0 1200 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="280" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#020617">
+        <animate attributeName="stop-color" values="#020617;#0F172A;#1E3A8A;#020617" dur="9s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="55%" stop-color="#1E3A8A">
+        <animate attributeName="stop-color" values="#1E3A8A;#0EA5E9;#0F172A;#1E3A8A" dur="9s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#06B6D4">
+        <animate attributeName="stop-color" values="#06B6D4;#38BDF8;#1E3A8A;#06B6D4" dur="9s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <linearGradient id="line" x1="250" y1="0" x2="950" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="280" rx="0" fill="url(#bg)"/>
+
+  <g opacity="0.18">
+    <circle cx="130" cy="65" r="70" fill="#38BDF8">
+      <animate attributeName="r" values="58;78;58" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1040" cy="60" r="92" fill="#FFFFFF">
+      <animate attributeName="r" values="82;105;82" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="930" cy="210" r="54" fill="#0EA5E9">
+      <animate attributeName="cy" values="210;195;210" dur="5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g opacity="0.22">
+    <path d="M0 215 C170 170 310 260 500 215 C715 165 850 270 1200 190 V280 H0 Z" fill="#FFFFFF"/>
+    <path d="M0 235 C210 185 360 270 590 225 C810 180 1010 245 1200 205 V280 H0 Z" fill="#38BDF8" opacity="0.45"/>
+  </g>
+
+  <text x="600" y="112" text-anchor="middle"
+        font-family="Segoe UI, Inter, Arial, sans-serif"
+        font-size="52" font-weight="800" fill="#FFFFFF" filter="url(#glow)">
+    Mochamad Rizal Fauzan
+  </text>
+
+  <rect x="250" y="135" width="700" height="2" fill="url(#line)">
+    <animate attributeName="opacity" values="0.35;1;0.35" dur="3.5s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="600" y="172" text-anchor="middle"
+        font-family="Segoe UI, Inter, Arial, sans-serif"
+        font-size="22" font-weight="600" fill="#E0F2FE">
+    AI Engineer | Computer Vision Researcher | Embedded Systems | LLM &amp; RAG
+  </text>
+
+  <text x="600" y="208" text-anchor="middle"
+        font-family="Segoe UI, Inter, Arial, sans-serif"
+        font-size="18" font-weight="500" fill="#BAE6FD">
+    Building research-driven AI systems for real-world engineering impact
+  </text>
+</svg>

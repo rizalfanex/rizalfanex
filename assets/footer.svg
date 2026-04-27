@@ -1,0 +1,25 @@
+<svg width="1200" height="140" viewBox="0 0 1200 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="footerBg" x1="0" y1="0" x2="1200" y2="140" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#06B6D4">
+        <animate attributeName="stop-color" values="#06B6D4;#1E3A8A;#06B6D4" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#1E3A8A">
+        <animate attributeName="stop-color" values="#1E3A8A;#0F172A;#1E3A8A" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#020617">
+        <animate attributeName="stop-color" values="#020617;#0EA5E9;#020617" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="140" fill="url(#footerBg)"/>
+  <path d="M0 48 C200 110 360 -5 570 58 C760 115 955 55 1200 18 V140 H0 Z" fill="#FFFFFF" opacity="0.18"/>
+  <path d="M0 80 C260 25 450 125 700 70 C920 22 1040 88 1200 52 V140 H0 Z" fill="#38BDF8" opacity="0.24"/>
+
+  <text x="600" y="78" text-anchor="middle"
+        font-family="Segoe UI, Inter, Arial, sans-serif"
+        font-size="22" font-weight="700" fill="#FFFFFF">
+    Building intelligent systems that are accurate, practical, reliable, and useful.
+  </text>
+</svg>

@@ -1,11 +1,20 @@
+<!--
+README.md for GitHub Profile
+Profile owner: Mochamad Rizal Fauzan / rizalfanex
+
+Quick edit guide:
+1. Create or open your GitHub profile repository: https://github.com/rizalfanex/rizalfanex
+2. Save this file as README.md.
+3. Upload the assets folder together with README.md so the local banner can appear.
+4. Optional: Replace [your-portfolio] when you already have a personal website.
+5. Optional: Activate the contribution snake workflow using the guide in the "Contribution Snake Animation" section.
+6. This version keeps the animated style from the first version, but uses a safer GitHub Stats configuration without count_private=true and include_all_commits=true.
+-->
+
 <div align="center">
 
-<!-- Animated Premium Header Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:020617,35:0F172A,70:1E3A8A,100:06B6D4&text=Mochamad%20Rizal%20Fauzan&fontAlign=50&fontAlignY=36&fontColor=FFFFFF&fontSize=50&desc=AI%20Engineer%20%7C%20Computer%20Vision%20Researcher%20%7C%20Embedded%20Systems%20%7C%20LLM%20%26%20RAG&descAlign=50&descAlignY=58&descSize=18&animation=fadeIn" alt="Mochamad Rizal Fauzan Banner" />
-
-<!-- Fallback title if external banner does not load -->
-<h1>Hi, I am Mochamad Rizal Fauzan</h1>
-<h3>AI Engineer · Computer Vision Researcher · Embedded Systems · IoT · LLM/RAG · Software Development</h3>
+<!-- Animated Premium Header Banner | Local SVG asset to avoid external fetch failure -->
+<img width="100%" src="./assets/header.svg" alt="Mochamad Rizal Fauzan Banner" />
 
 <!-- Typing Introduction -->
 <a href="https://github.com/rizalfanex">
@@ -431,6 +440,6 @@ I am open to meaningful collaboration in **AI research, computer vision, embedde
 
 ### “Building intelligent systems that are not only accurate, but also practical, reliable, and useful.”
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=130&color=0:06B6D4,50:1E3A8A,100:020617&section=footer" alt="Footer Banner" />
+<img width="100%" src="./assets/footer.svg" alt="Footer Banner" />
 
 </div>
