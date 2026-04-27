@@ -1,15 +1,3 @@
-<!--
-README.md for GitHub Profile
-Profile owner: Mochamad Rizal Fauzan / rizalfanex
-
-Quick edit guide:
-1. Create or open your GitHub profile repository: https://github.com/rizalfanex/rizalfanex
-2. Save this file as README.md.
-3. Optional: Replace [your-portfolio] when you already have a personal website.
-4. Optional: Activate the contribution snake workflow using the guide in the "Contribution Snake Animation" section.
-5. This version keeps the animated style from the first version, but uses a safer GitHub Stats configuration without count_private=true and include_all_commits=true.
--->
-
 <div align="center">
 
 <!-- Animated Premium Header Banner -->
