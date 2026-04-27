@@ -1,18 +1,23 @@
 <!--
 README.md for GitHub Profile
-How to use:
-1. Create a repository with the exact same name as your GitHub username.
-2. Add this file as README.md in that repository.
-3. Replace all placeholders:
-   Mochamad Rizal Fauzan, rizalfanex, https://www.linkedin.com/in/rizalfauzan2002/, rizalfauzan2002@gmail.com,
-   [your-portfolio], https://scholar.google.com/citations?user=wfTpQXgAAAAJ&hl, https://orcid.org/0009-0009-5291-5513, and [your-project-link].
-4. For the contribution snake animation, create the GitHub Action workflow explained near the snake section.
+Profile owner: Mochamad Rizal Fauzan / rizalfanex
+
+Quick edit guide:
+1. Create or open your GitHub profile repository: https://github.com/rizalfanex/rizalfanex
+2. Save this file as README.md.
+3. Optional: Replace [your-portfolio] when you already have a personal website.
+4. Optional: Activate the contribution snake workflow using the guide in the "Contribution Snake Animation" section.
+5. This version keeps the animated style from the first version, but uses a safer GitHub Stats configuration without count_private=true and include_all_commits=true.
 -->
 
 <div align="center">
 
-<!-- Premium Header Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:0F172A,50:1E3A8A,100:06B6D4&text=Mochamad Rizal Fauzan&fontAlign=50&fontAlignY=38&fontColor=FFFFFF&fontSize=52&desc=AI%20Engineer%20%7C%20Computer%20Vision%20Researcher%20%7C%20Embedded%20Systems%20%7C%20LLM%20%26%20RAG&descAlign=50&descAlignY=58&animation=fadeIn" />
+<!-- Animated Premium Header Banner -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:020617,35:0F172A,70:1E3A8A,100:06B6D4&text=Mochamad%20Rizal%20Fauzan&fontAlign=50&fontAlignY=36&fontColor=FFFFFF&fontSize=50&desc=AI%20Engineer%20%7C%20Computer%20Vision%20Researcher%20%7C%20Embedded%20Systems%20%7C%20LLM%20%26%20RAG&descAlign=50&descAlignY=58&descSize=18&animation=fadeIn" alt="Mochamad Rizal Fauzan Banner" />
+
+<!-- Fallback title if external banner does not load -->
+<h1>Hi, I am Mochamad Rizal Fauzan</h1>
+<h3>AI Engineer · Computer Vision Researcher · Embedded Systems · IoT · LLM/RAG · Software Development</h3>
 
 <!-- Typing Introduction -->
 <a href="https://github.com/rizalfanex">
@@ -21,7 +26,7 @@ How to use:
 
 <br />
 
-<!-- Profile Badges -->
+<!-- Auto Profile Views and Visitor Counter -->
 <img src="https://komarev.com/ghpvc/?username=rizalfanex&label=Profile%20Views&color=0ea5e9&style=for-the-badge" alt="Profile Views" />
 <img src="https://visitor-badge.laobi.icu/badge?page_id=rizalfanex.rizalfanex&left_text=Visitors&left_color=0f172a&right_color=06b6d4" alt="Visitor Counter" />
 <img src="https://img.shields.io/github/followers/rizalfanex?label=Followers&style=for-the-badge&color=0ea5e9&labelColor=0f172a" alt="GitHub Followers" />
@@ -80,9 +85,9 @@ I enjoy transforming ideas into working systems: from model design and experimen
 
 ### Computer Vision & Perception
 - Object detection and tracking
+- Person re-identification
 - Multispectral RGB-T perception
 - Thermal and infrared image analysis
-- Underwater image enhancement
 - Super-resolution for low-quality visual data
 
 </td>
@@ -100,12 +105,12 @@ I enjoy transforming ideas into working systems: from model design and experimen
 </td>
 <td width="50%">
 
-### Embedded Systems & IoT
+### Embedded Systems, IoT & Software
 - Edge AI systems
 - Sensor-based automation
 - Real-time monitoring
 - Microcontroller-based control systems
-- Industrial troubleshooting and diagnostics
+- Full-stack AI application development
 
 </td>
 </tr>
@@ -130,6 +135,7 @@ I enjoy transforming ideas into working systems: from model design and experimen
 <p>
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/Torchvision-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
   <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
   <img src="https://img.shields.io/badge/YOLO-111827?style=for-the-badge&logo=yolo&logoColor=white" />
   <img src="https://img.shields.io/badge/Ultralytics-020617?style=for-the-badge&logo=python&logoColor=38BDF8" />
@@ -147,13 +153,16 @@ I enjoy transforming ideas into working systems: from model design and experimen
   <img src="https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge&logo=qdrant&logoColor=white" />
   <img src="https://img.shields.io/badge/FAISS-111827?style=for-the-badge&logo=meta&logoColor=white" />
   <img src="https://img.shields.io/badge/LM%20Studio-0F172A?style=for-the-badge&logo=googlegemini&logoColor=38BDF8" />
+  <img src="https://img.shields.io/badge/OpenAI--Compatible%20API-111827?style=for-the-badge&logo=openai&logoColor=white" />
 </p>
 
-### Backend, Deployment & Tools
+### Backend, Frontend, Deployment & Tools
 
 <p>
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
   <img src="https://img.shields.io/badge/Flask-111827?style=for-the-badge&logo=flask&logoColor=white" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=111827" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
@@ -174,33 +183,33 @@ I enjoy transforming ideas into working systems: from model design and experimen
 
 ## 🚀 Featured Projects
 
-<!-- Replace each [your-project-link] with your actual GitHub repository or project demo link. -->
+<!-- Project cards are based on existing public repositories. -->
 
 <table>
 <tr>
 <td width="50%">
 
-### 🏭 Industrial LLM/RAG Knowledge Assistant
-A domain-specific AI assistant for engineering knowledge retrieval, troubleshooting support, and evidence-grounded response generation using local/offline LLM and vector database architecture.
+### ⚡ Lightweight CNN Benchmarking
+A reproducible benchmark comparing lightweight CNN architectures for image classification under unified training conditions.
 
-**Core areas:** LLM, RAG, Qdrant, FastAPI, Docker, Industrial AI  
-**Status:** Active development / enterprise-oriented prototype  
+**Core areas:** PyTorch, CIFAR-100, Lightweight CNN, Benchmarking, Edge AI  
+**Repository:** [`lightweight-cnn-benchmark`](https://github.com/rizalfanex/lightweight-cnn-benchmark)
 
-<a href="[your-project-link]">
-  <img src="https://img.shields.io/badge/View%20Project-0F172A?style=for-the-badge&logo=github&logoColor=white" />
+<a href="https://github.com/rizalfanex/lightweight-cnn-benchmark">
+  <img src="https://img.shields.io/badge/View%20Repository-0F172A?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 
 </td>
 <td width="50%">
 
-### 👁️ Real-Time Computer Vision System
-A practical vision-based system for object detection, monitoring, alerting, and real-time decision support using YOLO-based detection pipelines and deployment-oriented engineering.
+### 🧠 KD Hyperparameter Sensitivity on CIFAR-100
+A research-oriented implementation for analyzing vanilla knowledge distillation, temperature scaling, and loss balancing in compact CNNs.
 
-**Core areas:** YOLO, OpenCV, Flask, Edge AI, IoT  
-**Status:** Research and implementation  
+**Core areas:** Knowledge Distillation, ResNet-50, MobileNetV2, ShuffleNetV2, CIFAR-100  
+**Repository:** [`kd-hyperparameter-sensitivity-cifar100`](https://github.com/rizalfanex/kd-hyperparameter-sensitivity-cifar100)
 
-<a href="[your-project-link]">
-  <img src="https://img.shields.io/badge/View%20Project-0F172A?style=for-the-badge&logo=github&logoColor=white" />
+<a href="https://github.com/rizalfanex/kd-hyperparameter-sensitivity-cifar100">
+  <img src="https://img.shields.io/badge/View%20Repository-0F172A?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 
 </td>
@@ -208,27 +217,58 @@ A practical vision-based system for object detection, monitoring, alerting, and 
 <tr>
 <td width="50%">
 
-### ⚡ Lightweight CNN Benchmarking
-A reproducible benchmarking project for compact CNN models, knowledge distillation, accuracy-latency trade-offs, and efficient model evaluation under a unified training protocol.
+### 🎓 Skripsiku
+A full-stack AI academic writing assistant designed for Indonesian students, researchers, and journal authors.
 
-**Core areas:** PyTorch, CIFAR-100, Knowledge Distillation, Benchmarking  
-**Status:** Research-oriented repository  
+**Core areas:** FastAPI, Next.js, Docker, Kimi K2, Academic Writing AI  
+**Repository:** [`skripsiku`](https://github.com/rizalfanex/skripsiku)
 
-<a href="[your-project-link]">
-  <img src="https://img.shields.io/badge/View%20Project-0F172A?style=for-the-badge&logo=github&logoColor=white" />
+<a href="https://github.com/rizalfanex/skripsiku">
+  <img src="https://img.shields.io/badge/View%20Repository-0F172A?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 
 </td>
 <td width="50%">
 
-### 🌐 Multispectral RGB-T Object Detection
-A research project focused on robust object detection using RGB and thermal modalities with reliability-guided fusion and efficiency-oriented evaluation.
+### 🎥 Spatio-Temporal Bayesian ReID
+A person re-identification project that combines deep visual embeddings with camera transition priors, temporal priors, and Bayesian re-ranking.
 
-**Core areas:** RGB-T, Multimodal Fusion, YOLO, Robust Perception  
-**Status:** Research in progress  
+**Core areas:** Person ReID, ResNet50, Bayesian Re-ranking, Market-1501, Spatio-Temporal Modeling  
+**Repository:** [`spatiotemporal-bayesian-reid`](https://github.com/rizalfanex/spatiotemporal-bayesian-reid)
 
-<a href="[your-project-link]">
-  <img src="https://img.shields.io/badge/View%20Project-0F172A?style=for-the-badge&logo=github&logoColor=white" />
+<a href="https://github.com/rizalfanex/spatiotemporal-bayesian-reid">
+  <img src="https://img.shields.io/badge/View%20Repository-0F172A?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 📊 Unfollow Insight
+A responsive web tool for analyzing Instagram followers/following data and identifying non-followback accounts from exported JSON files.
+
+**Core areas:** HTML, JavaScript, TailwindCSS, DataTables, GitHub Pages  
+**Repository:** [`unfollow-insight`](https://github.com/rizalfanex/unfollow-insight)
+
+<a href="https://github.com/rizalfanex/unfollow-insight">
+  <img src="https://img.shields.io/badge/View%20Repository-0F172A?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+<a href="https://rizalfanex.github.io/unfollow-insight/">
+  <img src="https://img.shields.io/badge/Live%20Demo-06B6D4?style=for-the-badge&logo=githubpages&logoColor=white" />
+</a>
+
+</td>
+<td width="50%">
+
+### ✅ Chat2Task
+A Telegram-first task copilot that turns messy chat messages into structured reminders, summaries, drafts, and task actions.
+
+**Core areas:** FastAPI, Telegram Bot, LLM, Scheduling, Task Automation  
+**Repository:** [`Chat2Task`](https://github.com/rizalfanex/Chat2Task)
+
+<a href="https://github.com/rizalfanex/Chat2Task">
+  <img src="https://img.shields.io/badge/View%20Repository-0F172A?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 
 </td>
@@ -237,12 +277,33 @@ A research project focused on robust object detection using RGB and thermal moda
 
 ---
 
+## 📌 Repository Cards
+
+<div align="center">
+
+<a href="https://github.com/rizalfanex/lightweight-cnn-benchmark">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=rizalfanex&repo=lightweight-cnn-benchmark&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=C9D1D9&icon_color=38BDF8" />
+</a>
+<a href="https://github.com/rizalfanex/kd-hyperparameter-sensitivity-cifar100">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=rizalfanex&repo=kd-hyperparameter-sensitivity-cifar100&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=C9D1D9&icon_color=38BDF8" />
+</a>
+<a href="https://github.com/rizalfanex/skripsiku">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=rizalfanex&repo=skripsiku&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=C9D1D9&icon_color=38BDF8" />
+</a>
+<a href="https://github.com/rizalfanex/spatiotemporal-bayesian-reid">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=rizalfanex&repo=spatiotemporal-bayesian-reid&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=C9D1D9&icon_color=38BDF8" />
+</a>
+
+</div>
+
+---
+
 ## 🎯 Current Focus
 
 ```text
 Research        : Robust AI, computer vision, lightweight deep learning, RGB-T detection
 Engineering     : LLM/RAG systems, local AI deployment, industrial knowledge assistants
-Development     : Python backend, Dockerized AI services, edge AI applications
+Development     : Python backend, Dockerized AI services, full-stack AI applications
 Collaboration   : Research papers, open-source AI tools, applied industrial AI projects
 ```
 
@@ -260,15 +321,18 @@ I am currently working on projects that connect **academic research quality** wi
 
 <div align="center">
 
-<!-- Auto GitHub Stats Counting -->
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=rizalfanex&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8&text_color=C9D1D9" alt="GitHub Stats" />
+<!-- Stable GitHub Stats Card
+     This version intentionally avoids count_private=true and include_all_commits=true
+     to reduce fetching issues when total commit data is not available or API limits occur.
+-->
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=rizalfanex&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8&text_color=C9D1D9" alt="GitHub Stats" />
 
 <!-- Top Languages -->
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rizalfanex&layout=compact&langs_count=10&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=C9D1D9" alt="Top Languages" />
 
 <br /><br />
 
-<!-- Streak Stats -->
+<!-- GitHub Streak Stats -->
 <img src="https://streak-stats.demolab.com?user=rizalfanex&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" alt="GitHub Streak Stats" />
 
 <br /><br />
@@ -294,6 +358,7 @@ I am currently working on projects that connect **academic research quality** wi
 
 <!--
 To activate the contribution snake animation:
+
 1. Create this file in your profile repository:
    .github/workflows/snake.yml
 
@@ -349,6 +414,7 @@ jobs:
   <img src="https://img.shields.io/badge/RAG-1D4ED8?style=flat-square&logo=semanticweb&logoColor=white" />
   <img src="https://img.shields.io/badge/Edge%20AI-0F172A?style=flat-square&logo=nvidia&logoColor=76B900" />
   <img src="https://img.shields.io/badge/Research-0369A1?style=flat-square&logo=googlescholar&logoColor=white" />
+  <img src="https://img.shields.io/badge/Open%20Source-0F766E?style=flat-square&logo=github&logoColor=white" />
 </p>
 
 ---
@@ -377,6 +443,6 @@ I am open to meaningful collaboration in **AI research, computer vision, embedde
 
 ### “Building intelligent systems that are not only accurate, but also practical, reliable, and useful.”
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:06B6D4,50:1E3A8A,100:0F172A&section=footer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=130&color=0:06B6D4,50:1E3A8A,100:020617&section=footer" alt="Footer Banner" />
 
 </div>
