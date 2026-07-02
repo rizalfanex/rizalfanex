@@ -14,7 +14,7 @@ Notes:
 
 <!-- ⌨️ Typing Intro -->
 <a href="https://github.com/rizalfanex">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=800&color=38BDF8&center=true&vCenter=true&width=900&lines=Hi%2C+I'm+Rizal+%F0%9F%91%8B+—+I+build+AI+systems+that+actually+ship;Computer+Vision+%E2%80%A2+Embedded+AI+%E2%80%A2+IoT+%E2%80%A2+LLM+%E2%80%A2+RAG+%E2%80%A2+Industrial+AI;From+research+papers+%E2%86%92+to+production+systems;Open+for+research+collabs%2C+AI+engineering+%26+global+projects+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=800&color=38BDF8&center=true&vCenter=true&width=900&lines=Hi%2C+I%27m+Rizal+%F0%9F%91%8B+%E2%80%94+I+build+AI+systems+that+actually+ship;Computer+Vision+%E2%80%A2+Embedded+AI+%E2%80%A2+IoT+%E2%80%A2+LLM+%E2%80%A2+RAG+%E2%80%A2+Industrial+AI;From+research+papers+%E2%86%92+to+production+systems;Open+for+research+collabs%2C+AI+engineering+%26+global+projects+%F0%9F%9A%80" alt="Typing SVG" />
 </a>
 
 <br />
@@ -247,16 +247,16 @@ A Telegram-first task copilot that turns messy chat messages into structured rem
 <div align="center">
 
 <a href="https://github.com/rizalfanex/lightweight-cnn-benchmark">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=rizalfanex&repo=lightweight-cnn-benchmark&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=C9D1D9&icon_color=38BDF8" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=rizalfanex&repo=lightweight-cnn-benchmark&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=C9D1D9&icon_color=38BDF8" />
 </a>
 <a href="https://github.com/rizalfanex/kd-hyperparameter-sensitivity-cifar100">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=rizalfanex&repo=kd-hyperparameter-sensitivity-cifar100&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=C9D1D9&icon_color=38BDF8" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=rizalfanex&repo=kd-hyperparameter-sensitivity-cifar100&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=C9D1D9&icon_color=38BDF8" />
 </a>
 <a href="https://github.com/rizalfanex/skripsiku">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=rizalfanex&repo=skripsiku&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=C9D1D9&icon_color=38BDF8" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=rizalfanex&repo=skripsiku&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=C9D1D9&icon_color=38BDF8" />
 </a>
 <a href="https://github.com/rizalfanex/spatiotemporal-bayesian-reid">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=rizalfanex&repo=spatiotemporal-bayesian-reid&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=C9D1D9&icon_color=38BDF8" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=rizalfanex&repo=spatiotemporal-bayesian-reid&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=C9D1D9&icon_color=38BDF8" />
 </a>
 
 </div>
@@ -286,8 +286,8 @@ A Telegram-first task copilot that turns messy chat messages into structured rem
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=rizalfanex&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8&text_color=C9D1D9" alt="GitHub Stats" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rizalfanex&layout=compact&langs_count=10&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=C9D1D9" alt="Top Languages" />
+<img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=rizalfanex&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8&text_color=C9D1D9" alt="GitHub Stats" />
+<img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=rizalfanex&layout=compact&langs_count=10&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=C9D1D9" alt="Top Languages" />
 
 <br /><br />
 
@@ -310,11 +310,12 @@ A Telegram-first task copilot that turns messy chat messages into structured rem
 
 <img width="100%" src="./assets/divider.svg" alt="" />
 
-## 🏆 Trophies
+## 🏆 Highlights
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=rizalfanex&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10&margin-h=10&column=7" alt="GitHub Trophies" />
+<img height="170em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=rizalfanex&theme=tokyonight" alt="GitHub Stats Summary" />
+<img height="170em" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=rizalfanex&theme=tokyonight&utcOffset=7" alt="Productive Time" />
 
 </div>
 
