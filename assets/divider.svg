@@ -1,0 +1,33 @@
+<svg width="1200" height="26" viewBox="0 0 1200 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="dline" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#A78BFA"/>
+      <stop offset="75%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="dglow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect x="0" y="12" width="1200" height="2" fill="url(#dline)" filter="url(#dglow)">
+    <animate attributeName="opacity" values="0.45;1;0.45" dur="3.5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Traveling pulse -->
+  <circle cy="13" r="3.5" fill="#E0F2FE" filter="url(#dglow)">
+    <animate attributeName="cx" values="0;1200" dur="4.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="4.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Center diamond -->
+  <rect x="594" y="7" width="12" height="12" transform="rotate(45 600 13)" fill="#0F172A" stroke="#38BDF8" stroke-width="1.5" filter="url(#dglow)">
+    <animate attributeName="stroke" values="#38BDF8;#A78BFA;#22D3EE;#38BDF8" dur="6s" repeatCount="indefinite"/>
+  </rect>
+</svg>

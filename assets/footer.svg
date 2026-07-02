@@ -1,25 +1,75 @@
-<svg width="1200" height="140" viewBox="0 0 1200 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="220" viewBox="0 0 1200 220" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="footerBg" x1="0" y1="0" x2="1200" y2="140" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#06B6D4">
-        <animate attributeName="stop-color" values="#06B6D4;#1E3A8A;#06B6D4" dur="8s" repeatCount="indefinite"/>
+    <linearGradient id="fbg" x1="0" y1="0" x2="1200" y2="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#030014">
+        <animate attributeName="stop-color" values="#030014;#0B0524;#030014" dur="10s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="50%" stop-color="#1E3A8A">
-        <animate attributeName="stop-color" values="#1E3A8A;#0F172A;#1E3A8A" dur="8s" repeatCount="indefinite"/>
+      <stop offset="100%" stop-color="#0A0A2E">
+        <animate attributeName="stop-color" values="#0A0A2E;#101040;#0A0A2E" dur="10s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" stop-color="#020617">
-        <animate attributeName="stop-color" values="#020617;#0EA5E9;#020617" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <linearGradient id="wave1" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0.55"/>
+    </linearGradient>
+    <linearGradient id="wave2" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0.35"/>
+    </linearGradient>
+
+    <filter id="fglow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <linearGradient id="ftext" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8">
+        <animate attributeName="stop-color" values="#38BDF8;#A78BFA;#38BDF8" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#A78BFA">
+        <animate attributeName="stop-color" values="#A78BFA;#22D3EE;#A78BFA" dur="6s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
   </defs>
 
-  <rect width="1200" height="140" fill="url(#footerBg)"/>
-  <path d="M0 48 C200 110 360 -5 570 58 C760 115 955 55 1200 18 V140 H0 Z" fill="#FFFFFF" opacity="0.18"/>
-  <path d="M0 80 C260 25 450 125 700 70 C920 22 1040 88 1200 52 V140 H0 Z" fill="#38BDF8" opacity="0.24"/>
+  <rect width="1200" height="220" fill="url(#fbg)"/>
 
-  <text x="600" y="78" text-anchor="middle"
+  <!-- Animated waves sliding for a flowing effect -->
+  <g>
+    <path fill="url(#wave2)" d="M0 150 C150 110 300 190 450 150 C600 110 750 190 900 150 C1050 110 1200 190 1350 150 C1500 110 1650 190 1800 150 C1950 110 2100 190 2250 150 V220 H0 Z">
+      <animateTransform attributeName="transform" type="translate" values="0 0; -900 0; 0 0" dur="14s" repeatCount="indefinite"/>
+    </path>
+    <path fill="url(#wave1)" d="M0 168 C150 132 300 204 450 168 C600 132 750 204 900 168 C1050 132 1200 204 1350 168 C1500 132 1650 204 1800 168 C1950 132 2100 204 2250 168 V220 H0 Z">
+      <animateTransform attributeName="transform" type="translate" values="-900 0; 0 0; -900 0" dur="18s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- Twinkles -->
+  <g fill="#FFFFFF">
+    <circle cx="140" cy="50" r="1.3"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.4s" repeatCount="indefinite"/></circle>
+    <circle cx="420" cy="35" r="1.1"><animate attributeName="opacity" values="1;0.2;1" dur="2.9s" repeatCount="indefinite"/></circle>
+    <circle cx="760" cy="45" r="1.4"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.8s" repeatCount="indefinite"/></circle>
+    <circle cx="1060" cy="30" r="1.2"><animate attributeName="opacity" values="1;0.25;1" dur="3.1s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- Message -->
+  <text x="600" y="86" text-anchor="middle"
         font-family="Segoe UI, Inter, Arial, sans-serif"
-        font-size="22" font-weight="700" fill="#FFFFFF">
-    Building intelligent systems that are accurate, practical, reliable, and useful.
+        font-size="30" font-weight="800" letter-spacing="1.5"
+        fill="url(#ftext)" filter="url(#fglow)">
+    Thanks for visiting — let's build something intelligent.
+  </text>
+
+  <text x="600" y="120" text-anchor="middle"
+        font-family="JetBrains Mono, Consolas, monospace"
+        font-size="15" fill="#7DD3FC" letter-spacing="2">
+    &lt;/&gt; with ❤ by rizalfanex
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="4s" repeatCount="indefinite"/>
   </text>
 </svg>
